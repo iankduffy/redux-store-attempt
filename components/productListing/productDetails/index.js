@@ -45,7 +45,7 @@ const ProductDetails = ({variants, title, picture_url, price, reference, rating}
             </label> )}
           )}
         </div>
-        <button className="col-12 u-pad-v-sm u-mar-v-md" onClick={() => dispatch(addToBag())}>
+        <button className="col-12 u-pad-v-sm u-mar-v-md" onClick={() => dispatch(addToBag(currentSelected))}>
           Add to Cart
         </button>
       </div> 

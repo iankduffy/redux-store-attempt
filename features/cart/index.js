@@ -4,14 +4,21 @@ import {cart} from './initalState'
 export const cartSlice = createSlice({
   name: 'cart',
   initialState: {
-    cart
+    ...cart
   },
   reducers: {
-    addToBag: (state)  => {
-      const test = current(state)
-      // const newItems = [...items]
+    addToBag: (state, payload)  => {
+      console.log({payload})
+      const cart = current(state)
+      const newCart = { ...cart }
 
-      console.log(test)
+      newCart.attributes = {
+        ...newCart.attributes,
+        line_items_count: newCart.attributes.line_items_count + 1
+      }
+
+      console.log(newCart)
+      return newCart
     },
   },
 })
