@@ -1,0 +1,174 @@
+[
+  {
+    "id": 1, 
+    "type": "products", 
+    "attributes": { 
+      "title": "Product Title", 
+      "reference": "s23422432", 
+      "rating": 5, 
+      "picture_url": "/productImages/1.jpg", 
+      "price": 15.99
+    }, 
+    "variants": [
+      {
+        "variantSize": "S"
+      }, 
+      {
+        "variantSize": "M"
+      }, 
+      {
+        "variantSize": "L"
+      }, 
+      {
+        "variantSize": "XL"
+      }
+    ]
+  }, 
+  {
+    "id": 1, 
+    "type": "products", 
+    "attributes": { 
+      "title": "Product Title", 
+      "reference": "s23429739", 
+      "rating": 5, 
+      "picture_url": "/productImages/1.jpg", 
+      "price": 15.99
+    }, 
+    "variants": [
+      {
+        "variantSize": "S"
+      }, 
+      {
+        "variantSize": "M"
+      }, 
+      {
+        "variantSize": "L"
+      }, 
+      {
+        "variantSize": "XL"
+      }
+    ]
+  }, 
+  {
+    "id": 1, 
+    "type": "products", 
+    "attributes": { 
+      "title": "Product Title", 
+      "reference": "s232323763", 
+      "rating": 5, 
+      "picture_url": "/productImages/1.jpg", 
+      "price": 15.99
+    }, 
+    "variants": [
+      {
+        "variantSize": "S"
+      }, 
+      {
+        "variantSize": "M"
+      }, 
+      {
+        "variantSize": "L"
+      }, 
+      {
+        "variantSize": "XL"
+      }
+    ]
+  }, 
+  {
+    "id": 1, 
+    "type": "products", 
+    "attributes": { 
+      "title": "Product Title", 
+      "reference": "s2323293735", 
+      "rating": 5, 
+      "picture_url": "/productImages/1.jpg", 
+      "price": 15.99
+    }, 
+    "variants": [
+      {
+        "variantSize": "S"
+      }, 
+      {
+        "variantSize": "M"
+      }, 
+      {
+        "variantSize": "L"
+      }, 
+      {
+        "variantSize": "XL"
+      }
+    ]
+  }, {
+    "id": 1, 
+    "type": "products", 
+    "attributes": { 
+      "title": "Product Title", 
+      "reference": "s232838363", 
+      "rating": 5, 
+      "picture_url": "/productImages/1.jpg", 
+      "price": 15.99
+    }, 
+    "variants": [
+      {
+        "variantSize": "S"
+      }, 
+      {
+        "variantSize": "M"
+      }, 
+      {
+        "variantSize": "L"
+      }, 
+      {
+        "variantSize": "XL"
+      }
+    ]
+  }, {
+    "id": 1, 
+    "type": "products", 
+    "attributes": { 
+      "title": "Product Title", 
+      "reference": "Reference", 
+      "rating": 5, 
+      "picture_url": "/productImages/1.jpg", 
+      "price": 15.99
+    }, 
+    "variants": [
+      {
+        "variantSize": "S"
+      }, 
+      {
+        "variantSize": "M"
+      }, 
+      {
+        "variantSize": "L"
+      }, 
+      {
+        "variantSize": "XL"
+      }
+    ]
+  }, {
+    "id": 1, 
+    "type": "products", 
+    "attributes": { 
+      "title": "Product Title", 
+      "reference": "Reference", 
+      "rating": 5, 
+      "picture_url": "/productImages/1.jpg", 
+      "price": 15.99
+    }, 
+    "variants": [
+      {
+        "variantSize": "S"
+      }, 
+      {
+        "variantSize": "M"
+      }, 
+      {
+        "variantSize": "L"
+      }, 
+      {
+        "variantSize": "XL"
+      }
+    ]
+  }
+]
