@@ -1,14 +1,34 @@
 import { useSelector, useDispatch } from 'react-redux'
+import { useState } from 'react'
+import styles from './minibag.module.scss'
 
-const Minibag = () => {
-  const cart = useSelector((state) => state.cart)
 
-  console.log({cart})
+const Minibag = ({attributes, items}) => {
 
   return (
-    <div>
+    <div className={styles.minibag}>
+      Products: {attributes.line_items_count}
+      <div>
+
+      </div>
     </div>
   )
 }
 
-export default Minibag
+const MinibagParent = () => {
+  const cart = useSelector((state) => state.cart)
+  const [minibagOpen, setMinibagOpen] = useState(false)
+
+  console.log({cart})
+
+  return (
+    <div className='u-pos-relat'>
+      <div onMouseEnter={() => setMinibagOpen(true)} onMouseLeave={() => setMinibagOpen(false)}>
+        {cart.attributes.line_items_count}  
+      </div>
+      {minibagOpen && <Minibag {...cart}/>}
+    </div>
+  )
+}
+
+export default MinibagParent

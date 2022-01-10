@@ -6,6 +6,6 @@ export const cart = {
     total: 0, 
   }, 
   items: [
-    1, 2
+    
   ]
 }

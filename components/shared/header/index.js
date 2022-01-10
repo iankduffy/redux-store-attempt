@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import styles from './header.module.scss'
-import Minibag from 'components/minibag'
+import MinibagParent from 'components/minibag'
 
 const Header = () => {
   const [minibagVisible, setMinibagVisible] = useState(false)
@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div>Logo</div>
-      <div><Minibag /></div>
+      <div><MinibagParent /></div>
     </header>
   )
 }

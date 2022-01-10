@@ -10,17 +10,17 @@ const ProductDetails = ({variants, title, picture_url, price, reference, rating}
   const dispatch = useDispatch();
 
   const addItem = () => {
-    // const item = {
-    //   variant: currentSelected,
-    //   title, 
-    //   picture_url, 
-    //   price, 
-    //   reference: reference,
-    //   varient_sku: `${reference}_${currentSelected}`, 
-    //   quantity: 1
-    // }
+    const item = {
+      variant: currentSelected,
+      title, 
+      picture_url, 
+      price, 
+      reference: reference,
+      varient_sku: `${reference}_${currentSelected}`, 
+      quantity: 1
+    }
 
-    // addToCart(item)
+    dispatch(addToBag(item))
   }
 
   return (
@@ -45,7 +45,7 @@ const ProductDetails = ({variants, title, picture_url, price, reference, rating}
             </label> )}
           )}
         </div>
-        <button className="col-12 u-pad-v-sm u-mar-v-md" onClick={() => dispatch(addToBag(currentSelected))}>
+        <button className="col-12 u-pad-v-sm u-mar-v-md" onClick={() => addItem()}>
           Add to Cart
         </button>
       </div> 
