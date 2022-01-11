@@ -4,12 +4,16 @@ import styles from './minibag.module.scss'
 
 
 const Minibag = ({attributes, items}) => {
-
+  const { line_items_count, total } = attributes
   return (
     <div className={styles.minibag}>
-      Products: {attributes.line_items_count}
+      {line_items_count} items in your bag
       <div>
-
+        <h5>ITEMS</h5>
+        Items goes here
+      </div>
+      <div>
+        £{total}
       </div>
     </div>
   )
